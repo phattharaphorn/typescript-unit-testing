@@ -9,19 +9,19 @@ npm init
 
 
 ### ‣ Installing the Testing Tools
-- The next step is adding TypeScript as a development dependency to the project :
+- the next step is adding TypeScript as a development dependency to the project in the root of the project folder :
 
 ```sh
 npm i jest --save-dev
 ```
 
-- install the `ts-jest` package to bridge the path between TypeScript and Jest, so to speak :
+- install the `ts-jest` package to bridge the path between TypeScript and Jest :
 
 ```sh
 npm i ts-jest --save-dev
 ```
 
-- Must install the type definitions for Jest :
+- must install the type definitions for Jest :
    
 ```sh
 npm i @types/jest --save-dev
@@ -37,12 +37,10 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node']
 };
 ```
-
 (_This file is necessary to perform the necessary transformation in order to turn TypeScript into regular JavaScript code_)
 
 
-### ‣ Can run tests directly through Jest :
-
+### ‣ To run tests using Jest directly, can use the following command :
 ```sh
 npm i -g jest
 jest

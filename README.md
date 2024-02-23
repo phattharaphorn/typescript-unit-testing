@@ -9,7 +9,6 @@ npm install
 ```sh
 npm i jest --save-dev
 ```
-
 ### Execute code and unit test
 ```sh
 npm test
